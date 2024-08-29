@@ -44,20 +44,26 @@ The model will learn coefficients for each feature, indicating their importance 
 You can then analyze these coefficients to understand which features have the strongest influence on housing prices
 
 **Final Model Inferences**
+
 Relationship Between Variables and House Prices
+
 Positive Relationships:
 Higher ZN (zoned land) is associated with higher house prices.
 Higher RM (average number of rooms) is associated with higher house prices.
 Higher RAD (accessibility to radial highways) is associated with higher house prices.
 Being bounded by the Charles River (CHAS_Yes) is associated with higher house prices.
+
 Negative Relationships:
 Higher CRIM (crime rate) is associated with lower house prices.
 Higher NX (number of rooms) is associated with lower house prices.
 Higher DIS (distance to employment centers) is associated with lower house prices.
 Higher PTRATIO (pupil-teacher ratio) is associated with lower house prices.
 Higher LSTAT (percentage of lower-status population) is associated with lower house prices.
+
 Model Fit
 R-squared: While the R-squared of 0.703 is relatively high, it indicates that only 70.3% of the variation in house prices is explained by the model. This suggests that there might be other factors influencing house prices that are not included in the model.
+
 Model Assumptions
 Normality of Residuals: The diagnostic tests (Omnibus, Skew, Kurtosis, Jarque-Bera) indicate that the residuals are not normally distributed. This violates one of the key assumptions of linear regression. Non-normality of residuals can affect the validity of the statistical inferences.
+
 Overall, the model provides valuable insights into the factors influencing house prices. 
