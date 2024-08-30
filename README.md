@@ -32,7 +32,7 @@ MEDV: Median value of owner-occupied homes in 1000 dollars.
 Key Components:
 a. Data Preprocessing:
 
-Splitting the data into dependent (MEDV) and independent variables (all other features)\n
+Splitting the data into dependent (MEDV) and independent variables (all other features)
 Creating dummy variables for categorical features (like CHAS)
 Adding a constant term to the independent variables (for the intercept in linear regression)
 Splitting the data into training (70%) and testing (30%) sets
